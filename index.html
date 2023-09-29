@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pricing Page with Tailwind CSS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200 mx-auto flex flex-col" id="page-container">
+    <header class="text-center mt-10">
+      <h1 class="text-4xl font-medium">Pricing</h1>
+      <p class="mt-2 px-6 text-lg text-gray-700">Signup for a free 14-day trial today! No Payment needed.</p>
+      <div class="w-full flex justify-center">
+        <div class="mt-4 w-24 h-2 bg-pink-500 opacity-75 rounded-full"></div>
+      </div>
+    </header>
+
+    <section class="mt-5 flex flex-col lg:flex-row justify-center items-center">
+
+      <section id="basic-pricing-card" class="bg-white text-black shadow-md border-t border-gray-100 
+      flex flex-col justify-center items-center w-[300px] md:w-[350px] rounded-xl py-6 px-4 md:p-8 my-5">
+      <h2 class="text-xl font-medium">BASIC</h2>
+      <h3 class="mt-2 text-neutral-500">$7 / mo</h3>
+      <p class="m-3">Stripe offers everything needed to run an online business at scale.Get in touch for details.</p>
+      <ul class="m-4 flex flex-col gap-3 text-lg">
+        <li>
+          <div class="flex gap-10">
+            <svg
+              class="w-6 h-6 align-middle text-green-600"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>1 course</span>
+        </li>
+        <li>
+          <div class="flex gap-10">
+            <svg
+              class="w-6 h-6 align-middle text-green-600"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Unlimited Students</span>
+        </li>
+        <li>
+          <div class="flex gap-10">
+            <svg
+              class="w-6 h-6 align-middle text-green-600"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Limited Integration</span> 
+        </li>
+      </ul>
+      <button class="bg-indigo-500 mt-4 text-lg font-semibold text-white rounded-md 
+      py-3 px-6 shadow-xl transition-opacity hover:bg-indigo-600">TRY IT FREE</button>
+      </section>
+
+      <section id="popular-pricing-card" class="bg-white text-black shadow-md border-t border-gray-100 
+      flex flex-col justify-center items-center w-[300px] md:w-[375px] rounded-xl my-5">
+        <div class="text-sm text-white bg-pink-500 rounded-t-xl font-semibold py-4 w-full flex justify-center items-center">
+          MOST POPULAR
+        </div>
+        <section class = "py-6 px-4 md:p-8 flex flex-col justify-center items-center " >
+      <h2 class="text-xl font-medium">PLUS</h2>
+      <h3 class="mt-2 text-neutral-500 text-3xl">$15 / mo</h3>
+      <p class="m-3">Stripe offers everything needed to run an online business at scale.Get in touch for details.</p>
+      <ul class="m-4 flex flex-col gap-3 text-lg">
+        <li>
+          <div class="flex gap-10">
+            <svg
+              class="w-6 h-6 align-middle text-green-600"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>1 course</span>
+        </li>
+        <li>
+          <div class="flex gap-10">
+            <svg
+              class="w-6 h-6 align-middle text-green-600"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Unlimited Students</span>
+        </li>
+        <li>
+          <div class="flex gap-10">
+            <svg
+              class="w-6 h-6 align-middle text-green-600"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Limited Integration</span> 
+        </li>
+      </ul>
+      <button class="bg-indigo-500 mt-4 text-lg font-semibold text-white rounded-md 
+      py-3 px-6 shadow-xl transition-opacity hover:bg-indigo-600">TRY IT FREE</button>
+      </section>
+      </section>
+      
+
+      <section id="pro-pricing-card" class="bg-white text-black shadow-md border-t border-gray-100 
+      flex flex-col justify-center items-center w-[300px] md:w-[350px] rounded-xl py-6 px-4 md:p-8 my-5">
+      <h2 class="text-xl font-medium">PRO</h2>
+      <h3 class="mt-2 text-neutral-500">$30 / mo</h3>
+      <p class="m-3">Stripe offers everything needed to run an online business at scale.Get in touch for details.</p>
+      <ul class="m-4 flex flex-col gap-3 text-lg">
+        <li>
+          <div class="flex gap-10">
+            <svg
+              class="w-6 h-6 align-middle text-green-600"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>1 course</span>
+        </li>
+        <li>
+          <div class="flex gap-10">
+            <svg
+              class="w-6 h-6 align-middle text-green-600"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Unlimited Students</span>
+        </li>
+        <li>
+          <div class="flex gap-10">
+            <svg
+              class="w-6 h-6 align-middle text-green-600"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+            <span>Limited Integration</span> 
+        </li>
+      </ul>
+      <button class="bg-indigo-500 mt-4 text-lg font-semibold text-white rounded-md 
+      py-3 px-6 shadow-xl transition-opacity hover:bg-indigo-600">TRY IT FREE</button>
+      </section>
+
+    </section>
+    
+
+  </body>
+</html>
